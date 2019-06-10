@@ -9,7 +9,7 @@ def users():
     return dict(users=data)
 
 @get("/users/<username>")
-def hello(username):
+def get_by_username(username):
     for user in data:
         if username in user['username']:
             return user
