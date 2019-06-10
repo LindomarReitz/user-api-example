@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "username": "gpudsey0",
+        "email": "fonge0@google.com",
+        "billingAddress": "134 Schmedeman Circle",
+        "shippingAddress": "85457 Dwight Lane"
+    },
+    {
+        "id": 2,
+        "username": "ddumbare1",
+        "email": "kbrettell1@sphinn.com",
+        "billingAddress": "9 Bobwhite Hill",
+        "shippingAddress": "663 Golf Course Terrace"
+    },
+    {
+        "id": 3,
+        "username": "wecclesall2",
+        "email": "etoomey2@unc.edu",
+        "billingAddress": "1255 Old Shore Trail",
+        "shippingAddress": "716 Dexter Park"
+    },
+    {
+        "id": 4,
+        "username": "snorcliffe3",
+        "email": "dlivett3@google.ca",
+        "billingAddress": "11085 Bayside Trail",
+        "shippingAddress": "33 Bultman Circle"
+    },
+    {
+        "id": 5,
+        "username": "lrivalland4",
+        "email": "mgarrad4@diigo.com",
+        "billingAddress": "76094 Fisk Place",
+        "shippingAddress": "70974 Chive Junction"
+    },
+    {
+        "id": 6,
+        "username": "gmcgaughey5",
+        "email": "chillborne5@amazon.com",
+        "billingAddress": "579 Ilene Junction",
+        "shippingAddress": "9544 Meadow Vale Terrace"
+    },
+    {
+        "id": 7,
+        "username": "osoftley6",
+        "email": "gwhieldon6@comcast.net",
+        "billingAddress": "49 Manitowish Point",
+        "shippingAddress": "30913 Sutteridge Parkway"
+    },
+    {
+        "id": 8,
+        "username": "pgrogona7",
+        "email": "raslott7@yahoo.co.jp",
+        "billingAddress": "4 Claremont Crossing",
+        "shippingAddress": "8 Cherokee Pass"
+    },
+    {
+        "id": 9,
+        "username": "rcleare8",
+        "email": "rsute8@dion.ne.jp",
+        "billingAddress": "538 Sage Court",
+        "shippingAddress": "44608 Towne Alley"
+    },
+    {
+        "id": 10,
+        "username": "csteedman9",
+        "email": "gdooley9@blinklist.com",
+        "billingAddress": "98 Di Loreto Park",
+        "shippingAddress": "92268 Nelson Hill"
+    }
+]
