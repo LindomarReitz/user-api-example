@@ -6,7 +6,6 @@ with open('fixtures/users.json') as f:
 
 @get("/users")
 def users():
-
     return dict(users=data)
 
 @get("/users/<username>")
