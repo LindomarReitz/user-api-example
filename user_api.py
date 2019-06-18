@@ -6,13 +6,15 @@ with open('fixtures/users.json') as f:
 
 @get("/users")
 def users():
+
     return dict(users=data)
 
 @get("/users/<username>")
 def get_by_username(username):
     for user in data:
         if username in user['username']:
-            return user
+            response.content_type = 'application/json'
+            return json.dumps(user)
 
     response.status = 404
     response.content_type = 'application/json'
