@@ -1,2 +1,2 @@
 bottle==0.12.16
-pact-python==0.18.0
+pact-python==0.21.0
