@@ -5,6 +5,9 @@ services:
     image: python
     ports:
       - 8081:8081
+    environment: 
+      - PACT_BROKER_URL
+      - PACT_BROKER_TOKEN
     volumes: 
       - .:/src
     working_dir: /src
