@@ -1,5 +1,7 @@
 # user-api-example
 
+![Main workflow](https://github.com/LindomarReitz/user-api-example/workflows/Main%20workflow/badge.svg)
+
 Run using docker-compose:
 
 ```
