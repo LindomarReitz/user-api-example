@@ -1,0 +1,16 @@
+name: Main workflow
+on: push
+jobs:
+  build:
+    name: Python action
+    env:
+      PACT_BROKER_URL: ${{ secrets.PACT_BROKER_URL }}
+      PACT_BROKER_TOKEN: ${{ secrets.PACT_BROKER_TOKEN }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - run: docker-compose up -d
+      - run: docker-compose exec -T user_api pip install -r requirements.txt
+      - run: docker-compose exec -d -T user_api bash -c "python user_api.py"
+      - run: docker-compose exec -T user_api bash -c "pact-verifier --provider-base-url http://localhost:8081 --pact-url $PACT_BROKER_URL/pacts/provider/User/consumer/Checkout/latest --pact-broker-token $PACT_BROKER_TOKEN --provider-app-version 1.0.0 --publish-verification-results"
+        
