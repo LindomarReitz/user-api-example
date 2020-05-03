@@ -1,6 +1,6 @@
 # user-api-example
 
-![Main workflow](https://github.com/LindomarReitz/user-api-example/workflows/Main%20workflow/badge.svg)
+![Main workflow](https://github.com/LindomarReitz/user-api-example/workflows/Main%20workflow/badge.svg) [![Maintainability](https://api.codeclimate.com/v1/badges/b6ef4417631603bfc8de/maintainability)](https://codeclimate.com/github/LindomarReitz/user-api-example/maintainability)
 
 Change the env `PACT_BROKER_URL`. If you want to use [PactFlow](https://pactflow.io/) change the env `PACT_BROKER_TOKEN`.
 
